@@ -46,7 +46,7 @@ public class Program {
         System.out.println();
         System.out.println("Lista de funcionarios: ");
         for(Calculos cal: List){
-            System.out.println(cal);
+            System.out.println(emp.getId() + ", " + emp.getNome() + ", " + String.format("%.3f",emp.getSalario()));
         }
 sc.close();
     }
